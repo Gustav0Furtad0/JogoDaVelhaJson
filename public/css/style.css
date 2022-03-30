@@ -1,0 +1,55 @@
+/*----------RESET----------*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*BODY PRESET*/
+body {
+    height: 100vh;
+    font-size: 40px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f1f1f;
+}
+
+/*TABELA*/
+  
+.table {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+    border: solid 1px white;
+}
+
+.linha h1 {
+    width: 33%;
+    text-align: center;
+}
+
+.linha {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+
+/*TITULO*/
+
+.title {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}

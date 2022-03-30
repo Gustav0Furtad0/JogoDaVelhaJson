@@ -8,6 +8,6 @@ A princípio o propósito era criar a interação dinâmica entre dois usuário 
 HTML / CSS / JS
 
 ## Back-end
-NodeJS
-Socket.io
-Express
+NodeJS / Socket.io / Express
+
+Estou sempre aberto a sugestões... (gufurtado02@gmail.com)

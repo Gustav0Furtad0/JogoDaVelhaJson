@@ -26,7 +26,9 @@ body {
 /*TABELA*/
   
 .table {
+    color: #f1f1f1;
     display: flex;
+    background-color: #f1f1f1;
     flex-wrap: wrap;
     width: 500px;
     height: 500px;
@@ -34,15 +36,24 @@ body {
 }
 
 .linha h1 {
+    align-content: center;
+    justify-content: center;
     width: 33%;
     text-align: center;
+    background-color: #1f1f1f;
+    margin-right: 0.3%;
+}
+
+.linha h1:last-child{
+    margin-right: 0;
 }
 
 .linha {
     justify-content: center;
-    align-items: center;
     display: flex;
     width: 100%;
+    max-height: 33%;
+    min-height: 33%;
 }
 
 /*TITULO*/

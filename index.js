@@ -25,9 +25,12 @@ let gamereset = {
 
 gamereset = JSON.stringify(gamereset)
 
+app.use(express.static('public'));
+
 app.get('/', (req, res) => {
   res.sendFile(__dirname + '/public/index.html')
 })
+
 
 io.on('connection', (socket) => {
   socket.on('reseta jsao', (req) => {
